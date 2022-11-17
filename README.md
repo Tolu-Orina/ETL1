@@ -1,8 +1,11 @@
 # ETL 1: Automate FIle Format Conversion
 
 In this Project, we configure an s3 bucket to atomatically trigger a lambda function
-whenever a new ".csv" file is written to it.
-This Lambda converts the csv file to parquet format
+whenever a new ".csv" file is written to it. This Lambda converts the csv file to parquet format
+
+## Architecture
+![ETL1](https://user-images.githubusercontent.com/78595009/202572265-3035bae4-72c0-44bf-b297-0bede7ae5685.png)
+
 
 ## Services Used
 - **Amazon S3**
