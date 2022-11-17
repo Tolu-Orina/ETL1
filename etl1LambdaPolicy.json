@@ -1,0 +1,31 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogStream",
+                "logs:CreateLogGroup",
+                "logs:PutLogEvents"
+            ],
+            "Resource": "arn:aws:logs:*:*:*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::etl1-staging/*",
+                "arn:aws:s3:::etl1-transformed/*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "glue:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
