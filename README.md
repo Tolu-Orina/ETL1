@@ -43,3 +43,8 @@ result = wr.s3.to_parquet(
     )
 ```
 
+
+
+
+https://user-images.githubusercontent.com/78595009/202561890-6e0132bd-874a-4899-8cc5-31783b6b589f.mp4
+
